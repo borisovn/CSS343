@@ -1,0 +1,215 @@
+Script started on Thu 04 Dec 2014 10:32:26 PM PST
+nikitab9@uw1-320-14:~/CSS343/Porject4Final$ valgrind --leak-check=full ./a.out./a.out[K[7Pg++ *.cpp
+nikitab9@uw1-320-14:~/CSS343/Porject4Final$ g++ *.cppvalgrind --leak-check=full ./a.out./a.out[K
+==11814== Memcheck, a memory error detector
+==11814== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==11814== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==11814== Command: ./a.out
+==11814== 
+
+=============================================================================
+                                Invalid movie report
+
+1) Z, 10, Hal Ashby, Harold and Maude, Bud Cort 3 1971
+2) Z, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+
+=============================================================================
+
+=============================================================================
+                                Display Comedies 
+=============================================================================
+ Title                           Year Director          Stock
+ Annie Hall                      1977 Woody Allen        10                  
+ Fargo                           1996 Joel Coen          10                  
+ National Lampoon's Animal House 1978 John Landis        10                  
+ Pirates of the Caribbean        2003 Gore Verbinski     10                  
+ Sleepless in Seattle            1993 Nora Ephron        10                  
+ When Harry Met Sally            1989 Rob Reiner         10                  
+ You've Got Mail                 1998 Nora Ephron        10                  
+
+============================================================================
+                                Display Dramas 
+============================================================================
+ Director             Title                    Year     Stock
+ Barry Levinson       Good Morning Vietnam     1988      10
+ Clint Eastwood       Unforgiven               1992      10
+ Gus Van Sant         Good Will Hunting        2000      10
+ Jonathan Demme       Silence of the Lambs     1991      10
+ Nancy Savoca         Dogfight                 1991      10
+ Phillippe De Broca   King of Hearts           1967      10
+ Steven Spielberg     Schindler's List         1993      10
+
+============================================================================
+                                Display Classics 
+============================================================================
+ Month  Year  Major actor        Title                  Director       Stock
+ 9      1938  Cary Grant         Holiday                George Cukor    10   
+ 9      1938  Katherine Hepburn  Holiday                George Cukor    10   
+ 2      1939  Clark Gable        Gone With the Wind     Victor Fleming  10   
+ 2      1939  Vivien Leigh       Gone With the Wind     Victor Fleming  10   
+ 7      1939  Judy Garland       The Wizard of Oz       Victor Fleming  10   
+ 5      1940  Cary Grant         The Philadelphia Story George Cukor    10   
+ 5      1940  Katherine Hepburn  The Philadelphia Story George Cukor    10   
+ 10     1941  Humphrey Bogart    The Maltese Falcon     John Huston     10   
+ 8      1942  Humphrey Bogart    Casablanca             Michael Curtiz  10   
+ 8      1942  Ingrid Bergman     Casablanca             Michael Curtiz  10   
+ 11     1946  Donna Reed         It's a Wonderful Life  Frank Capra     10   
+ 11     1946  James Steward      It's a Wonderful Life  Frank Capra     10   
+ 2      1971  Malcolm McDowell   A Clockwork Orange     Stanley Kubrick 10   
+ 3      1971  Ruth Gordon        Harold and Maude       Hal Ashby       10   
+
+============================================================================
+
+
+
+=============================================================================
+Customer ID 1000: Mouse Minnie
+History:
+=============================================================================
+
+
+=============================================================================
+Customer ID 5000: Frog Freddie
+History:
+=============================================================================
+
+
+=============================================================================
+Customer ID 8000: Wacky Wally
+History:
+=============================================================================
+
+
+=============================================================================
+                                Display Comedies 
+=============================================================================
+ Title                           Year Director          Stock
+ Annie Hall                      1977 Woody Allen        9                   
+ Fargo                           1996 Joel Coen          9                   
+ National Lampoon's Animal House 1978 John Landis        9                   
+ Pirates of the Caribbean        2003 Gore Verbinski     10                  
+ Sleepless in Seattle            1993 Nora Ephron        9                   
+ When Harry Met Sally            1989 Rob Reiner         9                   
+ You've Got Mail                 1998 Nora Ephron        9                   
+
+============================================================================
+                                Display Dramas 
+============================================================================
+ Director             Title                    Year     Stock
+ Barry Levinson       Good Morning Vietnam     1988       9
+ Clint Eastwood       Unforgiven               1992       9
+ Gus Van Sant         Good Will Hunting        2000       9
+ Jonathan Demme       Silence of the Lambs     1991       9
+ Nancy Savoca         Dogfight                 1991       8
+ Phillippe De Broca   King of Hearts           1967       9
+ Steven Spielberg     Schindler's List         1993       9
+
+============================================================================
+                                Display Classics 
+============================================================================
+ Month  Year  Major actor        Title                  Director       Stock
+ 9      1938  Cary Grant         Holiday                George Cukor    9    
+ 9      1938  Katherine Hepburn  Holiday                George Cukor    10   
+ 2      1939  Clark Gable        Gone With the Wind     Victor Fleming  10   
+ 2      1939  Vivien Leigh       Gone With the Wind     Victor Fleming  10   
+ 7      1939  Judy Garland       The Wizard of Oz       Victor Fleming  10   
+ 5      1940  Cary Grant         The Philadelphia Story George Cukor    9    
+ 5      1940  Katherine Hepburn  The Philadelphia Story George Cukor    9    
+ 10     1941  Humphrey Bogart    The Maltese Falcon     John Huston     9    
+ 8      1942  Humphrey Bogart    Casablanca             Michael Curtiz  10   
+ 8      1942  Ingrid Bergman     Casablanca             Michael Curtiz  10   
+ 11     1946  Donna Reed         It's a Wonderful Life  Frank Capra     10   
+ 11     1946  James Steward      It's a Wonderful Life  Frank Capra     10   
+ 2      1971  Malcolm McDowell   A Clockwork Orange     Stanley Kubrick 9    
+ 3      1971  Ruth Gordon        Harold and Maude       Hal Ashby       0    
+
+============================================================================
+
+
+
+=============================================================================
+Customer ID 1000: Mouse Minnie
+History:
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Borrow classic: 5 1940 Cary Grant The Philadelphia Story George Cukor
+Borrow drama:  Gus Van Sant  Good Will Hunting 2000
+Borrow classic: 5 1940 Katherine Hepburn The Philadelphia Story George Cukor
+Borrow drama:  Barry Levinson  Good Morning Vietnam 1988
+=============================================================================
+
+
+=============================================================================
+Customer ID 1111: Mouse Mickey
+History:
+Borrow classic: 9 1938 Cary Grant Holiday George Cukor
+Borrow classic: 10 1941 Humphrey Bogart The Maltese Falcon John Huston
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Borrow classic: 2 1971 Malcolm McDowell A Clockwork Orange Stanley Kubrick
+=============================================================================
+
+
+=============================================================================
+Customer ID 5000: Frog Freddie
+History:
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Return classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Return classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Return classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+=============================================================================
+
+
+=============================================================================
+Customer ID 8000: Wacky Wally
+History:
+Borrow comedy:  National Lampoon's Animal House  John Landis 1978
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Return comedy:  You've Got Mail  Nora Ephron 1998
+Borrow comedy:  You've Got Mail  Nora Ephron 1998
+=============================================================================
+
+
+=============================================================================
+Customer ID 8888: Pig Porky
+History:
+Borrow classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+Borrow drama:  Nancy Savoca  Dogfight 1991
+Borrow drama:  Jonathan Demme  Silence of the Lambs 1991
+Borrow comedy:  When Harry Met Sally  Rob Reiner 1989
+Borrow comedy:  Annie Hall  Woody Allen 1977
+=============================================================================
+
+
+=============================================================================
+                                ERROR Report
+
+* Invalid movie type: Z 2 1971 Malcolm McDowell
+* Invalid transaction type: X
+* Invalid transaction type: Z
+* Invalid  Customer ID: 1234
+* Invalid retrive of  comedy:  Bogus Title  2001
+* Invalid  media type: Z F Fargo, 1996
+* Customer ID 9000: Lizard Larry. Attempt to borrow empty stock for
+ classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+* Customer ID 3333: Witch Wicked. Attempt to borrow empty stock for
+ classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+* Customer ID 7777: Spider Sammy. Attempt to borrow empty stock for
+ classic: 3 1971 Ruth Gordon Harold and Maude Hal Ashby
+* Invalid retrive of  drama:  Steven Spielberg  Bogus Title 0
+
+=============================================================================
+==11814== 
+==11814== HEAP SUMMARY:
+==11814==     in use at exit: 0 bytes in 0 blocks
+==11814==   total heap usage: 1,273 allocs, 1,273 frees, 195,306 bytes allocated
+==11814== 
+==11814== All heap blocks were freed -- no leaks are possible
+==11814== 
+==11814== For counts of detected and suppressed errors, rerun with: -v
+==11814== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+nikitab9@uw1-320-14:~/CSS343/Porject4Final$ exit
+
+Script done on Thu 04 Dec 2014 10:32:41 PM PST
