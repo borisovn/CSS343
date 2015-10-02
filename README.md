@@ -1,2 +1,3 @@
 # CSS343
-CSS343FALL2014
+Contains projects for CSS343 for fall 2014.
+
