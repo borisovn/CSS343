@@ -1,2 +1,3 @@
 # CSS343
-CSS343FALL2014
+Contains project from CSS 342 UWB.
+
